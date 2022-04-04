@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+
+    <select id="band-1" onchange="changeColor(value,1)">
+        <option value="black">Black</option>
+        <option value="brown">Brown</option>
+        <option value="red">Red</option>
+        <option value="orange">Orange</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="violet">Violet</option>
+        <option value="gray">Gray</option>
+        <option value="white">White</option>
+
+    </select>
+    <select id="band-2" onchange="changeColor(value,2)">
+        <option value="black">Black</option>
+        <option value="brown">Brown</option>
+        <option value="red">Red</option>
+        <option value="orange">Orange</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="violet">Violet</option>
+        <option value="gray">Gray</option>
+        <option value="white">White</option>
+
+    </select>
+    <select id="band-3" onchange="changeColor(value,3)">
+        <option value="black">Black</option>
+        <option value="brown">Brown</option>
+        <option value="red">Red</option>
+        <option value="orange">Orange</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="violet">Violet</option>
+
+        <!-- <option value="gold">Gold</option>
+        <option value="silver">Silver</option> -->
+
+    </select>
+    <select id="band-4" onchange="changeColor(value,4)">
+
+        <option value="brown">Brown</option>
+        <option value="red">Red</option>
+
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="violet">Violet</option>
+        <option value="gray">Gray</option>
+
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <!-- <option value="none">None</option> -->
+    </select>
+    <h1 id="display"><span id="firstDigit">0</span><span id="secondDigit">0</span> × <span>10<sup
+                id="power">1</sup></span> ± <span id="tolrance">0</span>% Ω</h1>
+    <script src="app.js"></script>
+</body>
+
+</html>

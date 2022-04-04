@@ -1,0 +1,50 @@
+body {
+    background-image: url('resistor-color-code.png');
+    background-repeat: no-repeat;
+}
+
+select {
+    width: 20px;
+    height: 96px;
+
+    appearance: none;
+    border: none;
+    color: white;
+}
+
+
+
+#band-1 {
+    position: relative;
+    top: 25px;
+    left: 197px;
+}
+
+#band-2 {
+    position: relative;
+    top: 25px;
+    left: 226px;
+}
+
+#band-3 {
+    position: relative;
+    top: 25px;
+    left: 256px;
+}
+
+#band-4 {
+    position: relative;
+    top: 25px;
+    left: 315px;
+
+    width: 23px;
+    height: 96px;
+
+}
+
+#display {
+    position: relative;
+    top: 50px;
+    left: 145px;
+    font-size: 2.5rem;
+}
